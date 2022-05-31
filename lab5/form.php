@@ -52,6 +52,7 @@ if (!empty($messages)) {
       </select>
       <p> Биография</p>
       <p><textarea name="comment"></textarea></p>
+      <p>С контрактом ознакомлен(a) <input type="checkbox" name="consent"></p>
       <input type="submit" value="Отправить" />
     </form>
     </div>

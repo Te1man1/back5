@@ -240,8 +240,8 @@ else {
   else {
     // Генерируем уникальный логин и пароль.
     // TODO: сделать механизм генерации, например функциями rand(), uniquid(), md5(), substr().
-    $login = rand();
-    $pass = rand();
+    $login = rand(99,999);
+    $pass = rand(99,999);
     // Сохраняем в Cookies.
     setcookie('login', $login);
     setcookie('pass', $pass);
